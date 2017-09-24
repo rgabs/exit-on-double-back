@@ -13,7 +13,7 @@ If you need to perform some action on your app when the back button is pressed t
 This module accepts the following props:
 
 | Prop   |Explanation| Default Value      |Type |
-|----------|:------------------:|:--------------|
+|----------|:------------------|:--------------|:--------------|
 |`toastMessage`|Message to be displayed on the toast when the back button is pressed on the landing screen.|'Press back again to exit the app'|string|
 |`doubleBackInterval`|Interval(in ms) in which JS will wait for second back press|3000|number|
 |`exitableRoutes`|Route names where toast message will be shown on first back press|['Landing']|Array||
