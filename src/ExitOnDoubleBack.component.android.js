@@ -27,12 +27,12 @@ class ExitOnDoubleBack extends Component {
   }
 
   _handleBackPress = () => {
-    const {nav, goBack} = this.props;
+    const {nav, backHandler} = this.props;
     const currentRoute = getCurrentRouteName(nav);
     if (this.props.exitableRoutes.includes(currentRoute)) { // exit the app from landing page
       return this._handleExit();
     } else { // in all the other cases, navigate back
-      goBack();
+      backHandler();
       return true;
     }
   }
@@ -53,8 +53,8 @@ ExitOnDoubleBack.defaultProps = {
   toastMessage: 'Press back again to exit the app',
   doubleBackInterval: 3000,
   exitableRoutes: ['Landing'],
-  onDoubleBack: noop,
-  goBack: noop,
+  onDoubleBack: BackHandler.exitApp,
+  backHandler: noop,
   nav: {}
 };
 ExitOnDoubleBack.propTypes = {
@@ -63,7 +63,7 @@ ExitOnDoubleBack.propTypes = {
   exitableRoutes: PropTypes.array,
   children: PropTypes.node,
   onDoubleBack: PropTypes.func,
-  goBack: PropTypes.func,
+  backHandler: PropTypes.func,
   nav: PropTypes.object,
 };
 export default ExitOnDoubleBack;

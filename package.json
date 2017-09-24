@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Exits app when back button is pressed twice in the passed interval on the index route of react-navigation",
   "main": "index.js",
-  "scripts": {
-    "test": "jest test"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rgabs/exit-on-double-back.git"
@@ -28,7 +26,5 @@
   },
   "homepage": "https://github.com/rgabs/exit-on-double-back#readme",
   "dependencies": {},
-  "devDependencies": {
-    "jest": "*"
-  }
+  "devDependencies": {}
 }
