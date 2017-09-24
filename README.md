@@ -14,7 +14,7 @@ This module accepts the following props:
 
 | Prop   |Explanation| Default Value      |Type |
 |----------|:------------------:|:--------------|
-|`toastMessage`|Message to be displayed on the toast when the back button is pressed on the landing screen.|'Press back again to exit the app'|string
+|`toastMessage`|Message to be displayed on the toast when the back button is pressed on the landing screen.|'Press back again to exit the app'|string|
 |`doubleBackInterval`|Interval(in ms) in which JS will wait for second back press|3000|number|
 |`exitableRoutes`|Route names where toast message will be shown on first back press|['Landing']|Array||
 |`onDoubleBack`|Function to be called on double back press in the passed interval. If no function is passed, the app will exit.|`BackHandler.exitApp`|Function||
