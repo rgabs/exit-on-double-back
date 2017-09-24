@@ -1,0 +1,37 @@
+{
+  "name": "exit-on-double-back",
+  "version": "1.0.0",
+  "description": "Exits app when back button is pressed twice in the passed interval on the index route of react-navigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgabs/exit-on-double-back.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-navigation",
+    "BackAndroid",
+    "Toast",
+    "Exit",
+    "Back",
+    "BackHandler",
+    "Logout",
+    "DoubleBack"
+  ],
+  "author": "Rahul Gaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgabs/exit-on-double-back/issues"
+  },
+  "homepage": "https://github.com/rgabs/exit-on-double-back#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-native": "^0.48.4"
+  },
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
