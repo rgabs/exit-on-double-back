@@ -23,9 +23,9 @@ This module accepts the following props:
 
 ## Demo
 
-<div style="text-align:center">
+<p align="center">
   <img src="./assets/double-back.gif" style="width: 70%;display:inline-block;max-width: 320px" vspace="20">
-</div>
+</p>
 
 ## Usage
 
@@ -76,9 +76,9 @@ If you wish to override the default behavior of exiting the app or add your own 
 
 That's all, your app now supports double back press to exit feature.
 
-<div style="text-align:center">
+<p align="center">
   <img src="./assets/happy.gif" style="width: 70%;display:inline-block;max-width: 320px" vspace="20">
-</div>
+</p>
 
 
 
