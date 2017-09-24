@@ -27,11 +27,10 @@
     "url": "https://github.com/rgabs/exit-on-double-back/issues"
   },
   "homepage": "https://github.com/rgabs/exit-on-double-back#readme",
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-native": "^0.48.4"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^21.1.0"
+    "jest": "*",
+    "react": "*",
+    "react-native": "*"
   }
 }
