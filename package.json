@@ -29,8 +29,6 @@
   "homepage": "https://github.com/rgabs/exit-on-double-back#readme",
   "dependencies": {},
   "devDependencies": {
-    "jest": "*",
-    "react": "*",
-    "react-native": "*"
+    "jest": "*"
   }
 }
