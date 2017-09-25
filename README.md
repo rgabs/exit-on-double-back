@@ -2,7 +2,7 @@
 
 A react-native module to exit an app when the back button is pressed twice on android device.
 
-Note: This module is only works with [react-navigation](https://reactnavigation.org/)(as of now) and your navigator should be [integrated to redux store](https://reactnavigation.org/docs/guides/redux).
+Note: This module only works with [react-navigation](https://reactnavigation.org/)(as of now) and your navigator should be [integrated to redux store](https://reactnavigation.org/docs/guides/redux).
 
 ## Why do I need this module?
 
