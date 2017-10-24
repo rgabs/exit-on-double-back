@@ -83,3 +83,6 @@ That's all, your app now supports double back press to exit feature.
 
 
 >Note: I have used JS `setTimeout` instead of [Timers](https://facebook.github.io/react-native/docs/timers.html). The Timer module is a react mixin and react team is [discouraging](https://github.com/brigand/react-mixin) the use of mixins in favour of higher order components. I am handling clearing the timeout as well whenever the action is done or the component unmounts.
+
+
+Don’t forget to hit star if you like my work :)

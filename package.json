@@ -1,6 +1,6 @@
 {
   "name": "exit-on-double-back",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Exits app when back button is pressed twice in the passed interval on the index route of react-navigation",
   "main": "index.js",
   "scripts": {},
